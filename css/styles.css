@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   color: #40514E;
+
 }
 
 h1 {
@@ -18,7 +19,9 @@ h2 {
   color: #66BFBF;
   font-weight: normal;
   text-transform: uppercase;
+
 }
+
 
 h3 {
   font-family: 'Raleway', sans-serif;
@@ -78,10 +81,30 @@ hr {
   background-color: #ffff;
 }
 
+.padding-top {
+  padding-top: 4rem;
+}
+
 .first-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: justify;
+}
+
+li {
+  font-family: 'Montserrat', serif;
+  line-height: 2;
+
+}
+
+.link {
+  color: #11999E;
+  font-weight: bold;
+}
+.link:hover {
+  color: #e29578;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .bottom-container {
@@ -89,8 +112,8 @@ hr {
   margin: 0;
   padding: 10px 0 10px 0;
 
-
 }
+
 
 .contact-me {
   width: 50%;
@@ -132,6 +155,8 @@ i {
 i:hover {
   color: #e29578;
 }
+
+
 
 .copyright {
   color: black;
